@@ -1,0 +1,22 @@
+{
+  "name": "conceitos-node-2.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": " node --watch server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@prisma/client": "6.19",
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1",
+    "mongodb": "^7.7.0"
+  },
+  "devDependencies": {
+    "prisma": "6.19"
+  }
+}
